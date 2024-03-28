@@ -386,7 +386,7 @@ def approval():
   suff=str((intuid-523217)%104729)
   realid=(suff+k3+k1+k4+k2+pref).encode().hex()
   try:
-    httpCaht = get_response('https://raw.githubusercontent.com/JOKER302/aproval/main/approval.txt')
+    httpCaht = get_response('https://github.com/HAJIJOKERHackER/joker55/edit/main/joker55.txt')
     if realid in httpCaht:
       #print("\3[1;32m YOUR KEY IS APPROVED.")
       #msg = str(os.geteuid())
