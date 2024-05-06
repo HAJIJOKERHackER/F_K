@@ -328,12 +328,12 @@ logo=(f"""{WHITE}
 \033[1;31m((   ,M9  8b    d8  MM   YM.  MM      /  MM    \M\  
 \033[1;31m YMMMM9    YMMMM9  _MM_   YM._MMMMMMMMM _MM_    \M\_
 \033[1;39m======================================================
-\033[1;39m[•] 𝐀𝐔𝐓𝐇𝐎𝐑       : 𝐌𝐑 𝐉𝐎𝐊𝐄𝐑
-\033[1;39m[•] 𝐒𝐓𝐘𝐋𝐄         : 𝐇𝐀𝐉𝐈 𝐉𝐎𝐊𝐄𝐑
+\033[1;39m[•] 𝐀𝐔𝐓𝐇𝐎𝐑       :  𝐌𝐑 𝐉𝐎𝐊𝐄𝐑
+\033[1;39m[•] 𝐒𝐓𝐘𝐋𝐄        : 𝐇𝐀𝐉𝐈 𝐉𝐎𝐊𝐄𝐑
 \033[1;39m[•] 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏     :  𝐍𝐎 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏
 \033[1;39m[•] 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊     :  𝐒𝐇𝐀𝐇𝐈 𝐉𝐎𝐊𝐄𝐑
-\033[1;39m[•] 𝐕𝐄𝐑𝐒𝐈𝐎𝐍      :   {RED}9.5
-\033[1;39m[•] 𝐘𝐎𝐔𝐓𝐔𝐁𝐄      :   𝐇𝐀𝐉𝐈 𝐉𝐎𝐊𝐄𝐑
+\033[1;39m[•] 𝐕𝐄𝐑𝐒𝐈𝐎𝐍      :  {RED}9.5
+\033[1;39m[•] 𝐘𝐎𝐔𝐓𝐔𝐁𝐄      : 𝐇𝐀𝐉𝐈 𝐉𝐎𝐊𝐄𝐑
 \033[1;39m======================================================
    \33[37;41m\t 𝐇𝐀𝐉𝐈 𝐒𝐇𝐀𝐇𝐈 𝐉𝐎𝐊𝐄𝐑 𝐊𝐇𝐀𝐍𝐎𝐎\33[0;m
 \033[1;39m======================================================""")
@@ -386,7 +386,7 @@ def approval():
   suff=str((intuid-523217)%104729)
   realid=(suff+k3+k1+k4+k2+pref).encode().hex()
   try:
-    httpCaht = get_response('https://github.com/HAJIJOKERHackER/Approve/blob/main/Approve.txt')
+    httpCaht = get_response('https://raw.githubusercontent.com/HAJIJOKERHackER/Approve/main/Approve.txt')
     if realid in httpCaht:
       #print("\3[1;32m YOUR KEY IS APPROVED.")
       #msg = str(os.geteuid())
@@ -408,8 +408,8 @@ def approval():
       print('\33[1;37m ====================================================')
       print ("\33[1;37m SEND 5 $ usd (FOR 30 DAYS APPROVEL)")
       print('\33[1;37m ====================================================')
-      print ("\33[1;37m Easy Paisa (+93707266012)")
-      print ("\33[1;37m Jazz Cash  (+93707266012)")
+      print ("\33[1;37m Easy Paisa (0707266012)")
+      print ("\33[1;37m Jazz Cash  (707266012)")
       print ("\33[37;41m\t INSHALLAH DAILY LUSH UPDATES \33[0;m")
       input(' IIF YOU ARE FREE USER THEN DONT PRESS ENTER')
       tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('xdg-open https://wa.me/message/+93707266012'+tks)
